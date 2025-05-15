@@ -78,13 +78,13 @@ Once you have learned about datablocks, the process is quite simple:
 
 1. Create a datablock in script, or using the datablock editor
 2. Add a shape to the scene from script or using the World Editor
-3. Assign the new object a datablock
+3. Assign the new object to a datablock
 
 ### Handles vs Names
 
 Every game object added to a level can be accessed by two parameters:
 
-HandleA unique numeric ID generated when the object is createdNameThis is an optional parameter given to an object when it is created. You can assign a name to an object from the World Editor, or do so in TorqueScript.
+`HandleA` is a unique numeric ID generated when the object is created. `Name` is an optional parameter given to an object when it is created. You can assign a name to an object from the World Editor, or do so in TorqueScript.
 
 Example:
 
